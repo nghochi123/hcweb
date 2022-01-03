@@ -35,10 +35,34 @@
     >
   </a>
   <h2>About</h2>
-  <article />
+  <article>
+    <div>
+      <div class="imagediv">
+        <img src="/montreal.jpg" alt="hc" width="200" />
+      </div>
+      <p>
+        Hello! My name is Ng Ho Chi, and I'm a Computer Science Major at NTU,
+        studying under the CN Yang Scholarship.
+      </p>
+      <p>
+        I enjoy all things tech, and try to dabble myself in many different
+        areas such as Web Development, Machine Learning, Cybersecurity and
+        Blockchain.
+      </p>
+      <p>
+        In my free time, I participate in hackathons and CTFs to improve my
+        technical skills while having fun.
+      </p>
+    </div>
+  </article>
 </div>
 
 <style>
+  .imagediv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
   .close {
     right: 0px;
   }
@@ -46,7 +70,7 @@
     top: 3vh;
     height: 94vh;
     min-width: 300px;
-    right: 3vw;
+    left: 0;
     width: 97vw;
     border-radius: 0px 15px 15px 0px;
   }

@@ -20,6 +20,14 @@
 </script>
 
 <svelte:window on:hashchange={loader} />
+<svelte:head>
+  <meta name="robots" content="noindex nofollow" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+  />
+  <html lang="en" />
+</svelte:head>
 
 <main>
   <div class="hero">
@@ -94,7 +102,7 @@
   }
   :global(.panel) {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 6, 37, 0.9);
     -webkit-backdrop-filter: brightness(8) blur(10px);
     backdrop-filter: brightness(8) blur(10px);
     overflow: hidden;
@@ -324,7 +332,7 @@
     a {
       letter-spacing: 5px;
       padding: 0px;
-
+      font-size: 1em;
       padding-left: 15px;
       padding-right: 10px;
     }

@@ -108,6 +108,14 @@ article {
   overflow-y: auto;
   max-height: calc(100% - 150px);
 }
+h1 {
+  font-weight: 600;
+  font-family: "Montserrat";
+  height: 65px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
 h2 {
   font-weight: 600;
   font-family: "Montserrat";
@@ -116,6 +124,14 @@ h2 {
   height: 65px;
   background: white;
   color: black;
+  display: flex;
+  align-items: center;
+}
+h3 {
+  font-weight: 600;
+  font-family: "Montserrat";
+  height: 65px;
+  color: white;
   display: flex;
   align-items: center;
 }

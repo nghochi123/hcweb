@@ -1,6 +1,12 @@
 <!-- Contact -->
 <script>
   import { quintInOut } from "svelte/easing";
+
+  // Links
+  const linkedin = "https://www.linkedin.com/in/ng-ho-chi-809a881b9/";
+  const email = "mailto:nghochi123@gmail.com";
+  const github = "https://github.com/nghochi123";
+  const website = "https://nghochi.xyz/";
   function fromRight(node, { duration }) {
     return {
       duration,
@@ -37,10 +43,7 @@
   <article>
     <a href="/resume.pdf" class="resume"> RESUME</a>
     <div class="icony">
-      <a
-        class="iconx"
-        href="https://www.linkedin.com/in/aparimeya-taneja-1a7300162/"
-      >
+      <a class="iconx" href={linkedin}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -59,24 +62,31 @@
           /></svg
         >
       </a>
-      <a class="iconx" href="https://www.instagram.com/aparimeya/">
+      <a class="iconx" href={website}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
+          width="52"
+          height="52"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
+          stroke-width="1"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="feather feather-instagram"
-          ><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path
-            d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
-          /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
+          class="feather feather-globe"
+          ><circle cx="12" cy="12" r="10" /><line
+            x1="2"
+            y1="12"
+            x2="22"
+            y2="12"
+          /><path
+            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+          /></svg
         >
       </a>
     </div>
     <div class="icony">
-      <a class="iconx" href="mailto:aparimeya.taneja@duke.edu">
+      <a class="iconx" href={email}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -91,7 +101,7 @@
           /><polyline points="22,6 12,13 2,6" /></svg
         >
       </a>
-      <a class="iconx" href="https://github.com/humblef00ls">
+      <a class="iconx" href={github}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
