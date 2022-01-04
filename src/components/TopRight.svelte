@@ -70,6 +70,7 @@
       <Chip text="Git" />
       <Chip text="Arduino" />
       <Chip text="Azure" />
+      <Chip text="Firebase" />
       <h1>Achievements</h1>
       <h3>International</h3>
       <div>
