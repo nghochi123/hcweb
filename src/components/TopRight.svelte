@@ -69,6 +69,7 @@
       <h3>Others</h3>
       <Chip text="Git" />
       <Chip text="Arduino" />
+      <Chip text="Azure" />
       <h1>Achievements</h1>
       <h3>International</h3>
       <div>
@@ -82,8 +83,11 @@
         title="Champions"
         subtitle="RoboCup Singapore 2018 - Rescue Line"
       />
-      <TextCard title="4th place" subtitle="HTX Investigator's Challenge" />
-      <TextCard title="Medal Winner" subtitle="ICAS Science" />
+      <TextCard
+        title="4th place"
+        subtitle="HTX Investigator's Challenge 2021"
+      />
+      <TextCard title="Medal Winner (Top Score)" subtitle="ICAS Science" />
     </div>
   </article>
 </div>
