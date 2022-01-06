@@ -66,11 +66,17 @@
       <Chip text="Pytorch" />
       <Chip text="OpenCV" />
       <Chip text="SpaCy" />
+      <h3>Blockchain</h3>
+      <Chip text="Solidity (ETH)" />
+      <Chip text="SmartPy (XTZ)" />
+      <Chip text="Web3.js" />
+      <Chip text="Truffle" />
       <h3>Others</h3>
       <Chip text="Git" />
       <Chip text="Arduino" />
       <Chip text="Azure" />
       <Chip text="Firebase" />
+      <Chip text="LaTeX" />
       <h1>Achievements</h1>
       <h3>International</h3>
       <div>
