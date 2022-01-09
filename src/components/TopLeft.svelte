@@ -1,6 +1,7 @@
 <!-- About -->
 <script>
   import { quintInOut } from "svelte/easing";
+  import TextCard from "./TextCard.svelte";
 
   function fromLeft(node, { duration }) {
     return {
@@ -38,7 +39,7 @@
   <article>
     <div>
       <div class="imagediv">
-        <img src="/montreal.jpg" alt="hc" width="200" />
+        <img src="/montreal.jpg" alt="hc" class="img" />
       </div>
       <p>
         Hello! My name is Ng Ho Chi, and I'm a Computer Science Major at NTU,
@@ -54,10 +55,41 @@
         technical skills while having fun.
       </p>
     </div>
+    <div class="pushright">
+      <h1>Achievements</h1>
+      <h3>International</h3>
+      <div class="fortextcard">
+        <TextCard
+          title="Participant"
+          subtitle="RoboCup International 2018 - Montreal, Canada"
+        />
+      </div>
+      <h3>National</h3>
+      <div class="fortextcard">
+        <TextCard
+          title="Champions"
+          subtitle="RoboCup Singapore 2018 - Rescue Line"
+        />
+        <TextCard
+          title="4th place"
+          subtitle="HTX Investigator's Challenge 2021"
+        />
+        <TextCard
+          title="Medal Winner (Top Score)"
+          subtitle="UNSW Global ICAS Assessment - Science"
+        />
+      </div>
+    </div>
   </article>
 </div>
 
 <style>
+  .pushright {
+    margin-left: 20px;
+  }
+  .img {
+    width: 500px;
+  }
   .imagediv {
     display: flex;
     justify-content: center;
@@ -87,9 +119,22 @@
       width: 75vw;
     }
   }
+  @media only screen and (max-width: 880px) {
+    .img {
+      width: 400px;
+    }
+    .fortextcard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
   @media only screen and (max-width: 750px) {
     .panel {
       width: 85vw;
+    }
+    .img {
+      width: 250px;
     }
   }
 </style>

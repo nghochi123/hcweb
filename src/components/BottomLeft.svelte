@@ -37,7 +37,7 @@
   </a>
   <h2>Projects</h2>
   <article>
-    <div>
+    <div class="forprojectcard">
       <ProjectCard
         title="Algorithm Visualisation Tool"
         subtext="An algorithm visualisation tool that currently has 4 sorting algorithms, as well as one pathfinding algorithm."
@@ -101,6 +101,13 @@
   @media only screen and (max-width: 1000px) {
     .panel {
       width: 97vw;
+    }
+  }
+  @media only screen and (max-width: 905px) {
+    .forprojectcard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
   @media only screen and (max-width: 750px) {

@@ -20,7 +20,8 @@
   }
   .card {
     min-width: 300px;
-    max-width: 400px;
+    max-width: 300px;
+    height: 105px;
     background-color: white;
     padding: 8px;
     border-radius: 12px;

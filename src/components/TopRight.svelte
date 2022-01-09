@@ -2,7 +2,7 @@
 <script>
   import { quintInOut } from "svelte/easing";
   import Chip from "./Chip.svelte";
-  import TextCard from "./TextCard.svelte";
+
   function fromRight(node, { duration }) {
     return {
       duration,
@@ -35,7 +35,7 @@
       /></svg
     >
   </a>
-  <h2>Skills (and Achievements)</h2>
+  <h2>Skills</h2>
   <article>
     <div class="pushright">
       <h1>Skills</h1>
@@ -77,24 +77,6 @@
       <Chip text="Azure" />
       <Chip text="Firebase" />
       <Chip text="LaTeX" />
-      <h1>Achievements</h1>
-      <h3>International</h3>
-      <div>
-        <TextCard
-          title="Participant"
-          subtitle="RoboCup International 2018 - Montreal, Canada"
-        />
-      </div>
-      <h3>National</h3>
-      <TextCard
-        title="Champions"
-        subtitle="RoboCup Singapore 2018 - Rescue Line"
-      />
-      <TextCard
-        title="4th place"
-        subtitle="HTX Investigator's Challenge 2021"
-      />
-      <TextCard title="Medal Winner (Top Score)" subtitle="ICAS Science" />
     </div>
   </article>
 </div>
