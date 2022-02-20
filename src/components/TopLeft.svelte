@@ -71,6 +71,10 @@
           subtitle="RoboCup Singapore 2018 - Rescue Line"
         />
         <TextCard
+          title="Champions"
+          subtitle="NUS Data Analytics Challenge 2022"
+        />
+        <TextCard
           title="4th place"
           subtitle="HTX Investigator's Challenge 2021"
         />
