@@ -57,17 +57,29 @@
         link="https://dbvis.vercel.app/"
       />
       <ProjectCard
+        title="Word-Tris"
+        subtext="An online web game made with React, Express and Socket.io. Built for iNTUition 2022 with the team Basket Boys."
+        image="/wordtris.png"
+        link="https://github.com/Basket-Boys/frontend"
+      />
+      <ProjectCard
+        title="Shortener"
+        subtext="A URL shortener made with Vue (Nuxt) and Firebase."
+        image="/shortener.png"
+        link="https://s.nghochi.xyz/"
+      />
+      <ProjectCard
         title="Real Time Chat App"
         subtext="An app that utilises Web Sockets (using the socket.io npm module) to allow the real time exchange of information."
         image="/chatapp.png"
         link="hchc-chat-app.herokuapp.com"
       />
-      <ProjectCard
+      <!-- <ProjectCard
         title="SG-Info"
         subtext="An app that gets information from APIs online and presents them in a more human readable format."
         image="/weather.png"
         link="https://sg-info-hc.netlify.app/"
-      />
+      /> -->
       <ProjectCard
         title="Generation"
         subtext="A mobile app built during Brainhack 2021 to help elderly get accustomed to post Covid life."

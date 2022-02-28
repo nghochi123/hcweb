@@ -39,9 +39,10 @@
   <article>
     <div class="pushright">
       <h1>Skills</h1>
-      <h3>Languages</h3>
+      <h3>Spoken Languages</h3>
       <Chip text="English" />
       <Chip text="Mandarin" />
+      <h3>Programming Languages</h3>
       <Chip text="Javascript" />
       <Chip text="Python" />
       <Chip text="C/C++" />
@@ -52,9 +53,9 @@
       <Chip text="Svelte" />
       <Chip text="React Native" />
       <Chip text="Flutter" />
-      <Chip text="Material UI" />
+      <!-- <Chip text="Material UI" />
       <Chip text="Vuetify" />
-      <Chip text="Bootstrap" />
+      <Chip text="Bootstrap" /> -->
       <h3>Back-End</h3>
       <Chip text="Express" />
       <Chip text="Django" />
@@ -67,10 +68,9 @@
       <Chip text="OpenCV" />
       <Chip text="SpaCy" />
       <h3>Blockchain</h3>
-      <Chip text="Solidity (ETH)" />
-      <Chip text="SmartPy (XTZ)" />
+      <Chip text="Solidity" />
+      <Chip text="SmartPy" />
       <Chip text="Web3.js" />
-      <Chip text="Truffle" />
       <h3>Others</h3>
       <Chip text="Git" />
       <Chip text="Arduino" />
