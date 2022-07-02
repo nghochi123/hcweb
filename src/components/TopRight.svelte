@@ -66,7 +66,6 @@
       <Chip text="Tensorflow" />
       <Chip text="Pytorch" />
       <Chip text="OpenCV" />
-      <Chip text="SpaCy" />
       <h3>Blockchain</h3>
       <Chip text="Solidity" />
       <Chip text="SmartPy" />
