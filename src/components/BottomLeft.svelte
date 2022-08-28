@@ -48,19 +48,19 @@
         title="Anime Dashboard"
         subtext="An anime dashboard that utilises online APIs to display data of anime and characters"
         image="/aniboard.png"
-        link="https://aniboard.vercel.app"
+        link="https://aniboard.nghochi.xyz/"
       />
       <ProjectCard
         title="Database Visualisation"
         subtext="A database diagram builder that can help visualise data relationships between tables in a relational database"
         image="/db.png"
-        link="https://dbvis.vercel.app/"
+        link="https://dbvis.nghochi.xyz/"
       />
       <ProjectCard
         title="Word-Tris"
         subtext="An online web game made with React, Express and Socket.io. Built for iNTUition 2022 with the team Basket Boys."
         image="/wordtris.png"
-        link="https://github.com/Basket-Boys/frontend"
+        link="https://wtris.nghochi.xyz/"
       />
       <ProjectCard
         title="Shortener"
@@ -72,7 +72,7 @@
         title="Real Time Chat App"
         subtext="An app that utilises Web Sockets (using the socket.io npm module) to allow the real time exchange of information."
         image="/chatapp.png"
-        link="https://hchc-chat-app.herokuapp.com"
+        link="http://chatapp.nghochi.xyz/"
       />
       <!-- <ProjectCard
         title="SG-Info"
@@ -80,12 +80,12 @@
         image="/weather.png"
         link="https://sg-info-hc.netlify.app/"
       /> -->
-      <ProjectCard
+      <!-- <ProjectCard
         title="Generation"
         subtext="A mobile app built during Brainhack 2021 to help elderly get accustomed to post Covid life."
         image="/generation.png"
         link="https://www.youtube.com/watch?v=h_8WtiIeOTU"
-      />
+      /> -->
     </div>
   </article>
 </div>

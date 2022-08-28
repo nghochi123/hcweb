@@ -60,8 +60,8 @@
       <Chip text="Express" />
       <Chip text="Django" />
       <Chip text="MongoDB" />
-      <Chip text="MySQL" />
-      <Chip text="PostgreSQL" />
+      <Chip text="SQL" />
+      <!-- <Chip text="PostgreSQL" /> -->
       <h3>Machine Learning</h3>
       <Chip text="Tensorflow" />
       <Chip text="Pytorch" />
@@ -73,8 +73,8 @@
       <h3>Others</h3>
       <Chip text="Git" />
       <Chip text="Arduino" />
-      <Chip text="Azure" />
-      <Chip text="Firebase" />
+      <!-- <Chip text="Azure" /> -->
+      <!-- <Chip text="Firebase" /> -->
       <Chip text="LaTeX" />
     </div>
   </article>

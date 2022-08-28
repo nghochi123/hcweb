@@ -75,11 +75,15 @@
           subtitle="NUS Data Analytics Challenge 2022"
         />
         <TextCard
+          title="1st Runner Up"
+          subtitle="TezAsia Hackathon 2022 - Small but Great NFT category"
+        />
+        <TextCard
           title="4th place"
           subtitle="HTX Investigator's Challenge 2021"
         />
         <TextCard
-          title="Medal Winner (Top Score)"
+          title="Medal Winner (Top Scorer)"
           subtitle="UNSW Global ICAS Assessment - Science"
         />
       </div>
