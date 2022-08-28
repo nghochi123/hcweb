@@ -3,7 +3,7 @@
   import { quintInOut } from "svelte/easing";
 
   // Links
-  const linkedin = "https://www.linkedin.com/in/ng-ho-chi-809a881b9/";
+  const linkedin = "https://www.linkedin.com/in/nghochi/";
   const email = "mailto:nghochi123@gmail.com";
   const github = "https://github.com/nghochi123";
   const website = "https://nghochi.xyz/";
