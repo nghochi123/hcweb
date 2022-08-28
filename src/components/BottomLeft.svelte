@@ -72,7 +72,7 @@
         title="Real Time Chat App"
         subtext="An app that utilises Web Sockets (using the socket.io npm module) to allow the real time exchange of information."
         image="/chatapp.png"
-        link="http://chatapp.nghochi.xyz/"
+        link="https://chatapp.nghochi.xyz/"
       />
       <!-- <ProjectCard
         title="SG-Info"
