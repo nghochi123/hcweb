@@ -83,7 +83,7 @@
           subtitle="HTX Investigator's Challenge 2021"
         />
         <TextCard
-          title="Medal Winner (Top Scorer)"
+          title="Medal Winner"
           subtitle="UNSW Global ICAS Assessment - Science"
         />
       </div>
