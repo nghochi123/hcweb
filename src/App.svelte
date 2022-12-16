@@ -4,10 +4,10 @@
   import { fly, fade } from "svelte/transition";
 
   // Own imports
-  import TopRight from "./components/TopRight.svelte";
-  import BottomLeft from "./components/BottomLeft.svelte";
-  import TopLeft from "./components/TopLeft.svelte";
-  import BottomRight from "./components/BottomRight.svelte";
+  import Skills from "./components/Skills.svelte";
+  import Projects from "./components/Projects.svelte";
+  import About from "./components/About.svelte";
+  import Contact from "./components/Contact.svelte";
 
   let p = false;
   let path = window.location.hash.substr(1) || "";
@@ -84,13 +84,13 @@
   <div transition:fade={{ duration: 400 }} class="modal" />
 {/if}
 {#if path == "about"}
-  <TopLeft />
+  <About />
 {:else if path == "projects"}
-  <BottomLeft />
+  <Projects />
 {:else if path == "contact"}
-  <BottomRight />
+  <Contact />
 {:else if path == "skills"}
-  <TopRight />
+  <Skills />
 {/if}
 
 <style>

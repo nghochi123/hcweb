@@ -38,4 +38,18 @@
     font-weight: 300;
     text-align: center;
   }
+  @media only screen and (max-width: 600px) {
+    .card {
+      min-width: 250px;
+      max-width: 250px;
+      height: 105px;
+      background-color: white;
+      padding: 8px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+  }
 </style>

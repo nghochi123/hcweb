@@ -62,7 +62,7 @@
         image="/wordtris.png"
         link="https://wtris.nghochi.xyz/"
       />
-      <ProjectCard
+      <!-- <ProjectCard
         title="Shortener"
         subtext="A URL shortener made with Vue (Nuxt) and Firebase."
         image="/shortener.png"
@@ -73,7 +73,7 @@
         subtext="An app that utilises Web Sockets (using the socket.io npm module) to allow the real time exchange of information."
         image="/chatapp.png"
         link="https://chatapp.nghochi.xyz/"
-      />
+      /> -->
       <!-- <ProjectCard
         title="SG-Info"
         subtext="An app that gets information from APIs online and presents them in a more human readable format."

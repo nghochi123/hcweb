@@ -41,7 +41,6 @@
   </a>
   <h2>Contact</h2>
   <article>
-    <a href="/resume.pdf" class="resume"> RESUME</a>
     <div class="icony">
       <a class="iconx" href={linkedin}>
         <svg
@@ -154,18 +153,7 @@
     justify-content: space-evenly;
     width: 100%;
   }
-  .resume {
-    font-size: 1.4em;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    padding: 8px;
-    padding-left: 20px;
-    padding-right: 12px;
-    letter-spacing: 8px;
-    border-radius: 5px;
-    background-color: white;
-    color: black;
-  }
+
   .iconx svg {
     stroke: white;
     stroke-width: 1.3;

@@ -74,6 +74,7 @@
           title="Champions"
           subtitle="NUS Data Analytics Challenge 2022"
         />
+        <TextCard title="1st Runner Up" subtitle="Cyberleague Singapore 2022" />
         <TextCard
           title="1st Runner Up"
           subtitle="TezAsia Hackathon 2022 - Small but Great NFT category"
@@ -125,6 +126,9 @@
   @media only screen and (max-width: 1000px) {
     .panel {
       width: 75vw;
+    }
+    p {
+      font-size: 1em;
     }
   }
   @media only screen and (max-width: 880px) {
